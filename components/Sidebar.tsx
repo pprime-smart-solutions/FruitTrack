@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, onNavigate }) => {
 
   return (
     <div className="w-64 h-screen bg-white border-r border-slate-100 flex flex-col hidden md:flex fixed left-0 top-0 z-20 shadow-[4px_0_24px_rgba(0,0,0,0.02)]">
-      <a href="http://194.164.76.81:8023/" className="p-8 flex items-center justify-center hover:opacity-80 transition-opacity">
+      <a href="http://194.164.76.81:8030/" className="p-8 flex items-center justify-center hover:opacity-80 transition-opacity">
         <img src={Logo} alt="Logo" width={80} />
       </a>
 
